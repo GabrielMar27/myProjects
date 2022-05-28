@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: poppins;
+}
+#calculatorContainer {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+button {
+  width: 50px;
+  height: 50px;
+}
+.line {
+  display: flex;
+}
+.line button {
+  background-color: rgb(226, 210, 210);
+  border: 1px solid gray;
+}
+.line button:hover {
+  background: gray;
+  transition: 0.5s;
+}
+.line button:active {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+.resultDiv {
+  background-color: black;
+  color: white;
+}
+.line .mathFunc {
+  background: rgb(204, 181, 181);
+}
+.line .DELETE {
+  background: rgb(163, 121, 121);
+}
+.line .equal {
+  background: rgb(191, 240, 193);
+}
+h1 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+body {
+  background: linear-gradient(
+    -90deg,
+    rgb(194, 152, 89),
+    rgb(189, 80, 80),
+    rgb(187, 118, 62)
+  );
+}

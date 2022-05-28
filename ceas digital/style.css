@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+#ceas {
+  display: flex;
+  font-size: 10rem;
+  border: 10px solid white;
+  border-radius: 40px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+#seconds {
+  font-size: 5rem;
+}
+#body {
+  color: white;
+  font-family: poppins;
+  background-color: black;
+}
+#ClockParent {
+  display: flex;
+  justify-content: center;
+}
+#calendar {
+  display: flex;
+  font-size: 5rem;
+  border: 10px solid white;
+  border-radius: 40px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+#calendarParent {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

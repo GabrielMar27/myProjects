@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeCardSelector</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cardContainerBorder">
+      <div id="cardContainer">
+        <div id="pokeData">
+          <div id="pokeName"></div>
+          <div id="pokeHP"></div>
+        </div>
+        <div id="pokeSprite"></div>
+        <div id="dataCont">
+          <div id="generalData"></div>
+        </div>
+        <div id="pokeAttacksAll">
+          <div id="pokeAttacks"></div>
+          <div id="pokeAttacks2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="dataImp">
+      <input type="number" id="pokeId" placeholder="Enter Pokemon id Here" />
+      <button id="pokeIdImp" onclick="getPokemon()">show</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
