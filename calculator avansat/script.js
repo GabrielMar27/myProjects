@@ -156,11 +156,23 @@ equals.addEventListener("click", () => {
         break;
       }
     case "+":
-      result = firstNumber + secondNumber;
-      break;
+      if (numOfCalcs > 1) {
+        firstNumber = result;
+        result = firstNumber + secondNumber;
+        break;
+      } else {
+        result = firstNumber + secondNumber;
+        break;
+      }
     case "-":
-      result = firstNumber - secondNumber;
-      break;
+      if (numOfCalcs > 1) {
+        firstNumber = result;
+        result = firstNumber - secondNumber;
+        break;
+      } else {
+        result = firstNumber - secondNumber;
+        break;
+      }
     case "/":
       if (secondNumber != 0) {
         if (numOfCalcs > 1) {
